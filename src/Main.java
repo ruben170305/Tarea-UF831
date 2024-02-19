@@ -15,9 +15,26 @@ public class Main {
         coleccionCDs.add(mimp3);
 
         // Mostrar la información de los CDs ordenados
-        for (CDs cd : coleccionCDs) {
-            System.out.println(cd);
-            System.out.println();
+        for (CDs cd : coleccionCDs){
+            if (cd instanceof CDAudio){
+                System.out.println(cd);
+            }
         }
+        for (CDs cd : coleccionCDs){
+            if (cd instanceof CDMp3){
+                System.out.println(cd);
+            }
+        }
+        for (CDs cd : coleccionCDs){
+            if (cd instanceof CDSoftware){
+                System.out.println(cd);
+            }
+        }
+        for (CDs cd : coleccionCDs){
+            if (cd instanceof CDDatos){
+                System.out.println(cd);
+            }
+        }
+
     }
 }

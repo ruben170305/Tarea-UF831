@@ -12,6 +12,6 @@ public class CDDatos extends CDs{
         return "Tipo de disco: "+super.getTipo()
                 +"\nIdentificador: "+this.id
                 +"\nTipo datos: "+this.tipoDatos
-                +"\nCapacidad del disco: "+super.getCapacidad();
+                +"\nCapacidad del disco: "+super.getCapacidad()+"\n";
     }
 }

@@ -12,6 +12,6 @@ public class CDMp3 extends CDs{
         return "Tipo de disco: "+super.getTipo()
                 +"\nNombre del disco: "+this.nombre
                 +"\nCantidad de canciones: "+this.cantidad
-                +"\nCapacidad del disco: "+super.getCapacidad();
+                +"\nCapacidad del disco: "+super.getCapacidad()+"\n";
     }
 }

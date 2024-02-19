@@ -12,6 +12,6 @@ public class CDSoftware extends CDs{
         return "Tipo de disco: "+super.getTipo()
                 +"\nIdentificador: "+this.id
                 +"\nLista de aplicaciones: "+this.listaAplicaciones
-                +"\nCapacidad del disco: "+super.getCapacidad();
+                +"\nCapacidad del disco: "+super.getCapacidad()+"\n";
     }
 }

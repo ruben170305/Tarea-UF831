@@ -12,6 +12,6 @@ public class CDAudio extends CDs{
         return "Tipo de disco: "+super.getTipo()
                 +"\nIdentificador: "+this.titulo
                 +"\nTipo datos: "+this.interprete
-                +"\nCapacidad del disco: "+super.getCapacidad();
+                +"\nCapacidad del disco: "+super.getCapacidad()+"\n";
     }
 }
